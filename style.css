@@ -412,6 +412,16 @@
   }
   .project-title a:hover{ border-bottom-color:var(--bp-cyan); }
   .project-stack{ display:flex; flex-wrap:wrap; gap:8px; }
+  .project-badge{
+  font-family:var(--font-display);
+  font-size:11px;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--bp-amber);
+  border:1px solid rgba(242,166,90,0.4);
+  padding:4px 10px;
+  white-space:nowrap;
+}
   .project-stack span{
     font-family:var(--font-display);
     font-size:11px;
